@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects — Temple Essien</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="bridge">
+    <span class="node-live">MAIN <span class="hash">AK22...042</span></span>
+    <a href="store/index.html">STORE &#8644;</a>
+  </div>
+
+  <nav class="nav">
+    <div class="wrap">
+      <a href="index.html" class="brand">ESSIEN<em>.</em>DEV</a>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="projects.html" aria-current="page">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="wrap">
+      <span class="eyebrow">Coursework</span>
+      <h1>Two builds,<br>submitted.</h1>
+      <p>Both assignments, deployed to the same domain and joined by the bridge switcher.</p>
+    </div>
+  </header>
+
+  <section class="section-alt">
+    <div class="wrap">
+      <div class="grid grid-2">
+        <article class="panel">
+          <span class="num">ASSIGNMENT 01 &mdash; COMPLETE</span>
+          <h3>Five-page portfolio</h3>
+          <p>Home, About, Services, Projects, Contact. Written in Notepad, no editor assistance, no autocomplete. Shared stylesheet, consistent navigation, semantic landmarks throughout.</p>
+          <p style="margin-top:14px;"><strong style="color:var(--mint);">Stack:</strong> HTML5, CSS3</p>
+          <a href="index.html" class="btn" style="margin-top:20px;">View site</a>
+        </article>
+
+        <article class="panel">
+          <span class="num">ASSIGNMENT 02 &mdash; COMPLETE</span>
+          <h3>Ledger Supply Co.</h3>
+          <p>A retail front-end for cold-storage hardware. Six products, an add-to-cart flow, quantity controls, live subtotal and total, and a checkout confirmation. Cart state is held in a JavaScript array and the basket re-renders from it on every mutation.</p>
+          <p style="margin-top:14px;"><strong style="color:var(--mint);">Stack:</strong> HTML5, CSS3, Vanilla JS</p>
+          <a href="store/index.html" class="btn" style="margin-top:20px;">Open store</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <span class="eyebrow">Notes</span>
+      <h2>What the store taught me.</h2>
+      <p>Holding state without a backend forces a decision: where does the truth live? The answer here is a single <code>cart</code> array. Nothing reads the DOM to find out what's in the basket — the DOM is a rendering of the array, and it is thrown away and rebuilt whenever the array changes. It's the smallest possible version of the idea every front-end framework is built around.</p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="wrap">
+      <span>Temple Emmanuel Essien &mdash; NetCentric Computing</span>
+      <span class="reg">AK22/PHS/CSC/042</span>
+    </div>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ledger Supply Co. — Cold Storage Hardware</title>
+  <meta name="description" content="Retail storefront. NetCentric Assignment 2 — Temple Essien, AK22/PHS/CSC/042.">
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="store.css">
+</head>
+<body>
+
+  <!-- SIGNATURE: bridge back to the main site -->
+  <div class="bridge">
+    <span class="node-live">STORE <span class="hash">AK22...042</span></span>
+    <a href="../index.html">&#8644; MAIN</a>
+  </div>
+
+  <nav class="nav">
+    <div class="wrap">
+      <a href="index.html" class="brand">LEDGER<em>/</em>SUPPLY</a>
+      <ul>
+        <li><a href="#catalogue">Catalogue</a></li>
+        <li><a href="#cart">Cart</a></li>
+        <li><a href="../index.html">Portfolio</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="wrap">
+      <span class="eyebrow">Cold storage &mdash; in stock</span>
+      <h1>Keys offline.<br><span class="accent">Custody</span> yours.</h1>
+      <p>Hardware wallets, steel seed plates, and the accessories that keep a private key out of reach. Everything ships from stock.</p>
+    </div>
+  </header>
+
+  <section id="catalogue" class="section-alt">
+    <div class="wrap">
+      <span class="eyebrow">Catalogue</span>
+      <h2>Six items.</h2>
+      <div class="shop-grid" id="product-grid">
+        <!-- Rendered by store.js -->
+      </div>
+    </div>
+  </section>
+
+  <section id="cart">
+    <div class="wrap">
+      <span class="eyebrow">Basket</span>
+      <h2>Your cart.</h2>
+
+      <div class="cart-panel">
+        <div id="cart-body">
+          <!-- Rendered by store.js -->
+        </div>
+
+        <div class="cart-summary" id="cart-summary" hidden>
+          <div class="line">
+            <span>Subtotal</span>
+            <span id="subtotal" class="figure">&#8358;0</span>
+          </div>
+          <div class="line">
+            <span>Shipping</span>
+            <span id="shipping" class="figure">&#8358;0</span>
+          </div>
+          <div class="line total">
+            <span>Total</span>
+            <span id="total" class="figure">&#8358;0</span>
+          </div>
+          <button class="btn checkout-btn" id="checkout-btn">Complete purchase</button>
+          <button class="clear-btn" id="clear-btn">Empty cart</button>
+        </div>
+      </div>
+
+      <div class="receipt" id="receipt" hidden>
+        <span class="eyebrow">Order confirmed</span>
+        <h3 id="receipt-head">Purchase complete.</h3>
+        <p id="receipt-body"></p>
+        <button class="btn" id="receipt-btn" style="margin-top:20px;">Start a new order</button>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="wrap">
+      <span>Ledger Supply Co. &mdash; NetCentric Assignment 02</span>
+      <span class="reg">AK22/PHS/CSC/042</span>
+    </div>
+  </footer>
+
+  <script src="store.js"></script>
+</body>
+</html>

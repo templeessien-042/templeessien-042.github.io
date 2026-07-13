@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Temple Essien — NetCentric Portfolio</title>
+  <meta name="description" content="NetCentric coursework portfolio. Temple Emmanuel Essien, AK22/PHS/CSC/042.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- SIGNATURE: bridge switcher between the two sites -->
+  <div class="bridge">
+    <span class="node-live">MAIN <span class="hash">AK22...042</span></span>
+    <a href="store/index.html">STORE &#8644;</a>
+  </div>
+
+  <nav class="nav">
+    <div class="wrap">
+      <a href="index.html" class="brand">ESSIEN<em>.</em>DEV</a>
+      <ul>
+        <li><a href="index.html" aria-current="page">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="wrap">
+      <span class="eyebrow">NetCentric Computing // Assignment 01 &amp; 02</span>
+      <h1>Building for the <span class="accent">decentralised</span> web.</h1>
+      <p>I'm Temple Essien, a Computer Science undergraduate working at the seam where front-end craft meets distributed systems. This site and its companion storefront were built by hand — no frameworks, no page builders.</p>
+      <a href="#message" class="btn">Send a message</a>
+      <a href="store/index.html" class="btn btn-ghost">Open the store</a>
+    </div>
+  </header>
+
+  <section class="section-alt">
+    <div class="wrap">
+      <div class="stats">
+        <div class="stat"><span class="val">02</span><span class="lab">Sites deployed</span></div>
+        <div class="stat"><span class="val">100%</span><span class="lab">Hand-written code</span></div>
+        <div class="stat"><span class="val">0</span><span class="lab">Frameworks used</span></div>
+        <div class="stat"><span class="val">AK22</span><span class="lab">Matric cohort</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <span class="eyebrow">What's here</span>
+      <h2>Two builds, one deployment.</h2>
+      <p style="margin-bottom:36px;">The coursework called for a five-page static site and a working retail front-end. Both are live, and the bridge in the corner moves you between them.</p>
+
+      <div class="grid grid-3">
+        <article class="panel">
+          <span class="num">ASSIGNMENT 01</span>
+          <h3>The portfolio</h3>
+          <p>Five linked pages written in Notepad — semantic HTML, a shared stylesheet, and a navigation system that holds together across every view.</p>
+        </article>
+        <article class="panel">
+          <span class="num">ASSIGNMENT 02</span>
+          <h3>Ledger Supply Co.</h3>
+          <p>A retail storefront for cold-storage hardware. Add to cart, adjust quantities, watch the total settle — all in vanilla JavaScript.</p>
+        </article>
+        <article class="panel">
+          <span class="num">THE BRIDGE</span>
+          <h3>Cross-site routing</h3>
+          <p>A persistent switcher pinned to every page. It reports which node you're on and carries you to the other in one click.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= REQUIRED COMMENT BOX ================= -->
+  <section id="message" class="section-alt">
+    <div class="wrap">
+      <span class="eyebrow">Inbound channel</span>
+      <h2>Leave a comment.</h2>
+      <p style="margin-bottom:32px;">Messages sent here land directly in my inbox. Dr. Anietie — this is the channel for further instructions.</p>
+
+      <form class="msg-panel" action="https://formspree.io/f/mlgqejok" method="POST">
+        <div class="field">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Who's writing?" required>
+        </div>
+
+        <div class="field">
+          <label for="email">Reply address</label>
+          <input type="email" id="email" name="email" placeholder="you@example.com" required>
+        </div>
+
+        <div class="field">
+          <label for="comment">Comment</label>
+          <textarea id="comment" name="comment" placeholder="Type your instructions or feedback here..." required></textarea>
+        </div>
+
+        <button type="submit" class="btn">Send comment</button>
+        <p class="form-note">&#8595; Delivered to essienemmanuel922@gmail.com</p>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="wrap">
+      <span>Temple Emmanuel Essien &mdash; NetCentric Computing</span>
+      <span class="reg">AK22/PHS/CSC/042</span>
+    </div>
+  </footer>
+
+</body>
+</html>
